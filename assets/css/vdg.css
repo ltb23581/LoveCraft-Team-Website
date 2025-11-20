@@ -1,0 +1,324 @@
+/* =========================================================
+    VISUAL DESIGN GUIDE (HERO SECTION)
+========================================================= */
+
+:root {
+  --nav-height: 6.5rem;
+}
+
+#visual-design-guide {
+  min-height: 100vh;
+  height: 100vh;
+  padding-top: calc(var(--nav-height) + 2rem);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  position: relative;
+  overflow: hidden;
+}
+
+#visual-design-guide .hero-bg {
+  background-image: url("/assets/img/hero/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  inset: 0; 
+  z-index: 0;
+}
+
+#visual-design-guide > * {
+  position: relative;
+  z-index: 2;
+}
+
+#visual-design-guide .section-title {
+  font-size: 3rem;
+  font-family: "Baloo Bhaijaan", sans-serif;
+  color: var(--lovecraft-dark);
+  margin-bottom: 1rem;
+}
+
+#visual-design-guide .section-subtitle {
+  font-size: 1.05rem;
+  color: var(--lovecraft-yellow);
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+}
+
+/* Cards */
+#visual-design-guide .guide-card {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 2rem 1.5rem;
+  width: 260px;
+  height: 260px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transition: transform 0.25s ease-in-out;
+}
+
+#visual-design-guide .guide-card:hover {
+  transform: translateY(-6px);
+}
+
+#visual-design-guide .guide-icon {
+  width: 120px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+#visual-design-guide h4 {
+  font-size: 1.2rem;
+  font-family: "Baloo Bhaijaan", sans-serif;
+  color: var(--lovecraft-teal);
+  margin: 0;
+}
+
+/* PDF button */
+#pdf-button {
+  margin-top: 3%;
+}
+
+.vdg-button {
+  display: inline-block;
+  background-color: var(--lovecraft-teal);
+  padding: 0.75rem 2rem;
+  border-radius: 12px;
+  border: 3px solid transparent;
+
+  text-decoration: none;
+  font-family: "Baloo Bhaijaan", sans-serif;
+  font-size: 1.2rem;
+  color: white;
+
+  transition: all 0.25s ease-in-out;
+}
+
+.vdg-button:hover {
+  background-color: var(--lovecraft-dark);
+  color: var(--lovecraft-light);
+  border-color: var(--lovecraft-dark);
+  transform: translateY(-3px);
+}
+
+/* Logo button */
+.logo-button {
+  display: inline-block;
+  background-color: var(--lovecraft-dark);
+  padding: 0.75rem 2rem;
+  border-radius: 12px;
+  border: 3px solid transparent;
+  margin-top: 5%;
+  width: 300px;
+
+  text-decoration: none;
+  font-family: "Baloo Bhaijaan", sans-serif;
+  font-size: 1.2rem;
+  color: white;
+
+  transition: all 0.25s ease-in-out;
+}
+
+.logo-button:hover {
+  background-color: var(--lovecraft-light);
+  color: var(--lovecraft-dark);
+  border-color: var(--lovecraft-light);
+  transform: translateY(-3px);
+}
+
+/* =========================================================
+    MAIN LOGOS / COLOR PALETTE / TYPOGRAPHY SECTIONS
+========================================================= */
+#logo-section,
+#color-palette,
+#typography {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.section-title {
+  font-family: "Baloo Bhaijaan", sans-serif;
+}
+
+#logo-section .row,
+#color-palette .row,
+#typography .row {
+  row-gap: 2.5rem;
+}
+
+/* Logo Cards  */
+#logo-section .logo-card {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 2.25rem 1.5rem;
+  width: 250px;
+  height: 250px;
+
+  margin: 0 auto;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.12);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transition: transform 0.2s ease;
+}
+
+#logo-section .logo-card:hover {
+  transform: translateY(-6px);
+}
+
+#logo-section .logo-image {
+  width: 120px;
+  margin-bottom: 1rem;
+}
+
+#logo-section h4 {
+  font-family: "Baloo Bhaijaan", sans-serif;
+  font-size: 1.2rem;
+  color: var(--lovecraft-teal);
+}
+
+/*  Color Palette Cards  */
+#color-palette .color-swatch-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 250px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.12);
+  transition: transform 0.2s ease;
+}
+
+#color-palette .color-swatch-card:hover {
+  transform: translateY(-5px);
+}
+
+#color-palette .color-box {
+  width: 100%;
+  height: 180px;
+  border-radius: 4px;
+  border: 4px solid #ddd;
+}
+
+#color-palette p {
+  margin-top: 0.75rem;
+  font-size: 1.1rem;
+  color: #454646;
+}
+
+/*  Typography Cards  */
+#typography .font-swatch-card {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 260px;
+  padding: 2rem 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+  transition: transform 0.2s ease;
+}
+
+#typography .font-swatch-card:hover {
+  transform: translateY(-5px);
+}
+
+#typography .font-preview {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #454646;
+}
+
+#typography p {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #454646;
+}
+
+/* =========================================================
+    RESPONSIVE — mobile & tablet fixes
+========================================================= */
+@media (max-width: 992px) {
+  #visual-design-guide {
+    height: auto;
+    padding-top: calc(var(--nav-height) + 2rem);
+    justify-content: flex-start;
+  }
+}
+
+/* Fix spacing + stack layout
+@media (max-width: 1200px) {
+  #logo-section .row,
+  #color-palette .row,
+  #typography .row {
+    justify-content: center;
+    gap: 2.5rem;
+  }
+} */
+
+@media (max-width: 992px) {
+  #logo-section .col-md-4,
+  #color-palette .col-md-4,
+  #typography .col-md-4 {
+    flex: 0 0 48%;        
+    max-width: 48%;
+  }
+
+  #logo-section,
+  #color-palette,
+  #typography {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #logo-section .col-md-4,
+  #color-palette .col-md-4,
+  #typography .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #logo-section .logo-card,
+  #color-palette .color-swatch-card,
+  #typography .font-swatch-card {
+    width: 90%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  #logo-section .row,
+  #color-palette .row,
+  #typography .row {
+    gap: 2rem;
+  }
+}
+
+#logo-section .col-md-4,
+#color-palette .col-md-4,
+#typography .col-md-4 {
+  display: flex;
+  justify-content: center;
+}
