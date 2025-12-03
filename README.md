@@ -10,7 +10,7 @@ The purpose of this site is to document our team’s work, showcase our redesign
 ---
 
 ## 🔗 Live Website  
-https://ltb23581.github.io/lovecraft-beta/
+https://projects.nmi.cool/2025/nmc/lovecraft/?
 
 ---
 
