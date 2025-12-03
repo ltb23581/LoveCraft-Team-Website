@@ -10,7 +10,7 @@ The purpose of this site is to document our team’s work, showcase our redesign
 ---
 
 ## 🔗 Live Website  
-https://projects.nmi.cool/2025/nmc/lovecraft/?
+https://projects.nmi.cool/2025/nmc/lovecraft/
 
 ---
 
