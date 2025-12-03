@@ -52,6 +52,7 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
           <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
+              <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" href="#project-trailer">Trailer</a></li>
               <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" href="#details">Details</a></li>
               <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" href="#team">Team</a></li>
               <!-- Probably don't need a button in the navbar, but here's one if you do <li class="nav-item px-3 px-xl-4"><a class="btn btn-outline-dark order-1 order-lg-0 fw-medium" href="#!">Sign Up</a></li> -->
@@ -61,7 +62,6 @@
                   <li><a class="dropdown-item" href="#checkpoint-two">Checkpoint Two</a></li>
                   <li><a class="dropdown-item" href="#checkpoint-three">Checkpoint Three</a></li>
                   <li><a class="dropdown-item" href="#checkpoint-four">Checkpoint Four</a></li>
-                  <li><a class="dropdown-item" href="#final-deliverables">Final Deliverables</a></li>
                 </ul>
               </li>
             </ul>
@@ -71,95 +71,76 @@
       <!--    End of Navbar-->
       <!-- ===============================================-->
      
-      <!-- ===============================================-->
-      <!--    Hero Unit-->
+<!-- ===============================================-->
+<!--                Hero Unit                        -->
+<!-- ===============================================-->
+<section class="hero-section">
+  <div
+    class="hero-bg"
+    style="background-image: url('assets/img/hero/background.png');"
+  ></div>
 
-      <section class="hero-section" style="padding-top: 10rem;">
-        <!--This div contains the swoopy bit in the background of the hero unit.-->
-        <div class="hero-bg" style="background-image: url('assets/img/hero/background.png');"></div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8 text-center py-6 hero-content">
+        <h4 class="fw-bold mb-3">
+          A creative space where art empowers community.
+        </h4>
 
-        <div class="container">
-          <div class="row align-items-center">
-            
-            <!-- Hero Image -->
-            <div class="col-md-5 col-lg-6 order-0 order-md-1 text-end">
-              <img class="pt-7 pt-md-0 hero-img"
-                  src="assets/img/hero/computer2.png"
-                  alt="hero-header"
-                  style="max-width: 120%; transform: scale(1.45);" />
-            </div>
+        <h1 class="hero-title">Love.Craft</h1>
 
-            <!-- Text Section -->
-            <div class="col-md-7 col-lg-6 text-md-start text-center py-6">
-              <h4 class="fw-bold text-danger mb-3">
-                A creative space where art empowers community.
-              </h4>
-              <h1 class="hero-title">Love.Craft</h1>
-              <p class="mb-4 fw-medium">
-                A redesigned website experience that highlights the artists of Love.Craft Athens.
-                <br class="d-none d-xl-block" />
-                Our team built an accessible, story-driven portfolio gallery that showcases each artist’s work and individuality.
-                <br class="d-none d-xl-block" />
-                The platform connects the Athens community to Love.Craft’s people and purpose behind the art.
-              </p>
+        <p class="mb-4 fw-medium">
+          A redesigned website experience that highlights the artists of
+          Love.Craft Athens.
+          <br class="d-none d-xl-block" />
+          Our team built an accessible, story-driven portfolio gallery that
+          showcases each artist’s work and individuality.
+          <br class="d-none d-xl-block" />
+          The platform connects the Athens community to Love.Craft’s people and
+          purpose behind the art.
+        </p>
 
-              <!-- Rectangular Buttons -->
-              <div class="d-flex justify-content-center justify-content-md-start gap-3 mt-4">
+        <!-- <div class="d-flex justify-content-center gap-3 mt-4">
+          <a
+            href="#project-trailer"
+            class="btn btn-danger px-4 py-2 rounded-pill fw-semibold"
+          >
+          Our Product
+          </a>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===============================================-->
+<!--             End Hero                           -->
+<!-- ===============================================-->
 
-                <!-- Landing Page Button -->
-                <a href="#"
-                  class="btn btn-danger px-4 py-2 rounded-pill fw-semibold"
-                  data-bs-toggle="modal"
-                  data-bs-target="#landingModal">
-                  View Landing Page
-                </a>
+<!-- ===============================================-->
+<!--             Project Trailer Section             -->
+<!-- ===============================================-->
+<section id="project-trailer" class="checkpoint-section project-trailer-section">
+  <div class="container">
+    <h2 class="text-center section-title mb-4">Project Trailer</h2>
 
-                <!-- Portfolio Page Button -->
-                <a href="#"
-                  class="btn btn-danger px-4 py-2 rounded-pill fw-semibold"
-                  data-bs-toggle="modal"
-                  data-bs-target="#portfolioModal">
-                  View Portfolio Page
-                </a>
-
-
-              </div>
-
-
-              <!-- Landing Page Modal -->
-              <div class="modal fade" id="landingModal" tabindex="-1" aria-labelledby="landingModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-lg">
-                  <div class="modal-content">
-                    <video class="rounded" style="width:100%;max-height:500px;" controls>
-                      <source src="assets/video/landing-page.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
-                    </video>
-                  </div>
-                </div>
-              </div>
-
-
-              <!-- Portfolio Page Modal -->
-              <div class="modal fade" id="portfolioModal" tabindex="-1" aria-labelledby="portfolioModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-lg">
-                  <div class="modal-content">
-                    <video class="rounded" style="width:100%;max-height:500px;" controls>
-                      <source src="assets/video/portfolio-page.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
-                    </video>
-                  </div>
-                </div>
-              </div>
-
-
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <!--    End of Hero Unit-->
-      <!-- ===============================================-->
+    <div class="trailer-wrapper">
+      <div class="trailer-card">
+        <video
+          controls
+          playsinline
+          preload="metadata"
+          poster="assets/img/promo/lovecraft-group.png"
+        >
+          <source src="assets/video/trailer.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===============================================-->
+<!--             End Trailer Modal                   -->
+<!-- ===============================================-->
 
 
       <!-- ============================================-->
@@ -427,33 +408,37 @@
       <!-- ============================================-->
       <!-- Checkpoint Four begin ============================-->
       <section id="checkpoint-four" class="checkpoint-section">
-  <div class="container text-center">
-    <h5 class="section-subtitle">Assignments</h5>
-    <h3 class="section-title">Checkpoint Four</h3>
+        <div class="container text-center">
+          <h5 class="section-subtitle">Assignments</h5>
+          <h3 class="section-title">Checkpoint Four</h3>
 
-    <div class="row justify-content-center">
-      <div class="col-md-4 mb-4">
-        <a href="assets/files/checkpoint-four/1.1.pdf" target="_blank" class="checkpoint-card">
-          <img src="assets/img/icons/web-icon.png" alt="Version 1.1" class="checkpoint-icon">
-          <h4>1.1</h4>
-          <p>Completed full Squarespace build with artist pages and cohesive design system. Created update/handoff guide for Love.Craft staff and prepared for SLAM showcase and client site launch.</p>
-        </a>
-      </div>
+          <div class="row justify-content-center">
+            <div class="col-md-4 mb-4">
+              <a href="assets/files/checkpoint-four/1.1.pdf" target="_blank" class="checkpoint-card">
+                <img src="assets/img/icons/web-icon.png" alt="Version 1.1" class="checkpoint-icon">
+                <h4>1.1</h4>
+                <p>Completed full Squarespace build with artist pages and cohesive design system. Created update/handoff guide for Love.Craft staff and prepared for SLAM showcase and client site launch.</p>
+              </a>
+            </div>
 
-      <div class="col-md-4 mb-4">
-        <a href="assets/files/checkpoint-four/launch-deliverables.pdf" target="_blank" class="checkpoint-card">
-          <img src="assets/img/icons/pdf-icon.png" alt="Launch Deliverables" class="checkpoint-icon">
-          <h4>Launch / Handoff Deliverables</h4>
-          <p><b>Please come back later to view!</b></p>
-          <p>Developed project trailer and final presentation materials. Prepared documentation for staff use and final site maintenance post-launch.</p>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
+            <div class="col-md-4 mb-4">
+              <a href="assets/files/checkpoint-four/Step-by-Step Instructions_ Adding New Artist Portfolios on Love.pdf" target="_blank" class="checkpoint-card">
+                <img src="assets/img/icons/pdf-icon.png" alt="Launch Deliverables" class="checkpoint-icon">
+                <h4>Launch / Handoff Deliverables</h4>
+                <p>Created final handoff documentation for Love.Craft staff, including update guides and site maintenance instructions.</p>        </a>
+            </div>
+            <!-- <div class="col-md-4 mb-4">
+              <a href="assets/files/checkpoint-four/Love.Craft Trailer (Captions).mp4" target="_blank" class="checkpoint-card">
+                <img src="assets/img/icons/video.png" alt="Launch Deliverables" class="checkpoint-icon">
+                <h4>Project Trailer</h4>
+                <p>Produced the project trailer and presentation materials to highlight the redesign process and final deliverables.</p>        </a>
+            </div> -->
+          </div>
+        </div>
+      </section>
       <!-- Checkpoint Four end ============================-->
       <!-- ============================================-->
+
 
       <!-- ============================================-->
       <!-- Final Deliverables begin ============================-->
@@ -519,156 +504,7 @@
 
       <!-- Additional sections below in the Extra Sections div for you to use as you'd like, or delete if unnecessary. To add a link to a section in the navbar, just link to the id of the corresponding section (for example, the first section below would be href="#booking" in the navbar li to correspond with <section id="booking"> below)-->
       
-    <div id="extra-sections">
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <!-- <section id="booking">
-
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <div class="mb-4 text-start">
-                <h5 class="text-secondary">Easy and Fast </h5>
-                <h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">Book your next trip in 3 easy steps</h3>
-              </div>
-              <div class="d-flex align-items-start mb-5">
-                <div class="bg-primary me-sm-4 me-3 p-3" style="border-radius: 13px"> <img src="assets/img/steps/selection.svg" width="22" alt="steps" /></div>
-                <div class="flex-1">
-                  <h5 class="text-secondary fw-bold fs-0">Choose Destination</h5>
-                  <p>Choose your favourite place. No matter <br class="d-none d-sm-block"> where you travel inside the World.</p>
-                </div>
-              </div>
-              <div class="d-flex align-items-start mb-5">
-                <div class="bg-danger me-sm-4 me-3 p-3" style="border-radius: 13px"> <img src="assets/img/steps/water-sport.svg" width="22" alt="steps" /></div>
-                <div class="flex-1">
-                  <h5 class="text-secondary fw-bold fs-0">Make Payment</h5>
-                  <p>After find your perfect spot, make your <br class="d-none d-sm-block"> payment and get ready to travel.</p>
-                </div>
-              </div>
-              <div class="d-flex align-items-start mb-5">
-                <div class="bg-info me-sm-4 me-3 p-3" style="border-radius: 13px"> <img src="assets/img/steps/taxi.svg" width="22" alt="steps" /></div>
-                <div class="flex-1">
-                  <h5 class="text-secondary fw-bold fs-0">Reach Airport on Selected Date</h5>
-                  <p>Lastly, you have to arrive at the airport <br class="d-none d-sm-block"> on time and enjoy the vacation.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 d-flex justify-content-center align-items-start">
-              <div class="card position-relative shadow" style="max-width: 370px;">
-                <div class="position-absolute z-index--1 me-10 me-xxl-0" style="right:-160px;top:-210px;"> <img src="assets/img/steps/bg.png" style="max-width:550px;" alt="shape" /></div>
-                <div class="card-body p-3"> <img class="mb-4 mt-2 rounded-2 w-100" src="assets/img/steps/booking-img.jpg" alt="booking" />
-                  <div>
-                    <h5 class="fw-medium">Trip To Greece</h5>
-                    <p class="fs--1 mb-3 fw-medium">14-29 June | by Robbin joseph</p>
-                    <div class="icon-group mb-4"> <span class="btn icon-item"> <img src="assets/img/steps/leaf.svg" alt=""/></span><span class="btn icon-item"> <img src="assets/img/steps/map.svg" alt=""/></span><span class="btn icon-item"> <img src="assets/img/steps/send.svg" alt=""/></span>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between">
-                      <div class="d-flex align-items-center mt-n1"><img class="me-3" src="assets/img/steps/building.svg" width="18" alt="building" /><span class="fs--1 fw-medium">24 people going</span></div>
-                      <div class="show-onhover position-relative">
-                        <div class="card hideEl shadow position-absolute end-0 start-xl-50 bottom-100 translate-xl-middle-x ms-3" style="width: 260px;border-radius:18px;">
-                          <div class="card-body py-3">
-                            <div class="d-flex">
-                              <div style="margin-right: 10px"> <img class="rounded-circle" src="assets/img/steps/favorite-placeholder.png" width="50" alt="favorite" /></div>
-                              <div>
-                                <p class="fs--1 mb-1 fw-medium">Ongoing </p>
-                                <h5 class="fw-medium mb-3">Trip to rome</h5>
-                                <h6 class="fs--1 fw-medium mb-2"><span>40%</span> completed</h6>
-                                <div class="progress" style="height: 6px;">
-                                  <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <button class="btn"> <img src="assets/img/steps/heart.svg" width="20" alt="step" /></button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> end of .container-->
-
-      <!-- </section> --> 
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
-
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <!-- <section id="testimonial">
-
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-5">
-              <div class="mb-8 text-start">
-                <h5 class="text-secondary">Testimonials </h5>
-                <h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">What people say about Us.</h3>
-              </div>
-            </div>
-            <div class="col-lg-1"></div>
-            <div class="col-lg-6">
-              <div class="pe-7 ps-5 ps-lg-0">
-                <div class="carousel slide carousel-fade position-static" id="testimonialIndicator" data-bs-ride="carousel">
-                  <div class="carousel-indicators">
-                    <button class="active" type="button" data-bs-target="#testimonialIndicator" data-bs-slide-to="0" aria-current="true" aria-label="Testimonial 0"></button>
-                    <button class="false" type="button" data-bs-target="#testimonialIndicator" data-bs-slide-to="1" aria-current="true" aria-label="Testimonial 1"></button>
-                    <button class="false" type="button" data-bs-target="#testimonialIndicator" data-bs-slide-to="2" aria-current="true" aria-label="Testimonial 2"></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item position-relative active">
-                      <div class="card shadow" style="border-radius:10px;">
-                        <div class="position-absolute start-0 top-0 translate-middle"> <img class="rounded-circle fit-cover" src="assets/img/testimonial/author.png" height="65" width="65" alt="" /></div>
-                        <div class="card-body p-4">
-                          <p class="fw-medium mb-4">&quot;On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.&quot;</p>
-                          <h5 class="text-secondary">Mike taylor</h5>
-                          <p class="fw-medium fs--1 mb-0">Lahore, Pakistan</p>
-                        </div>
-                      </div>
-                      <div class="card shadow-sm position-absolute top-0 z-index--1 mb-3 w-100 h-100" style="border-radius:10px;transform:translate(25px, 25px)"> </div>
-                    </div>
-                    <div class="carousel-item position-relative ">
-                      <div class="card shadow" style="border-radius:10px;">
-                        <div class="position-absolute start-0 top-0 translate-middle"> <img class="rounded-circle fit-cover" src="assets/img/testimonial/author2.png" height="65" width="65" alt="" /></div>
-                        <div class="card-body p-4">
-                          <p class="fw-medium mb-4">&quot;Jadoo is recognized as one of the finest travel agency in the world. When it came to planning a trip, I found them to be dependable.&quot;</p>
-                          <h5 class="text-secondary">Thomas Wagon</h5>
-                          <p class="fw-medium fs--1 mb-0">CEO of Red Button</p>
-                        </div>
-                      </div>
-                      <div class="card shadow-sm position-absolute top-0 z-index--1 mb-3 w-100 h-100" style="border-radius:10px;transform:translate(25px, 25px)"> </div>
-                    </div>
-                    <div class="carousel-item position-relative ">
-                      <div class="card shadow" style="border-radius:10px;">
-                        <div class="position-absolute start-0 top-0 translate-middle"> <img class="rounded-circle fit-cover" src="assets/img/testimonial/author3.png" height="65" width="65" alt="" /></div>
-                        <div class="card-body p-4">
-                          <p class="fw-medium mb-4">&quot;On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.&quot;</p>
-                          <h5 class="text-secondary">Kelly Willium</h5>
-                          <p class="fw-medium fs--1 mb-0">Khulna, Bangladesh</p>
-                        </div>
-                      </div>
-                      <div class="card shadow-sm position-absolute top-0 z-index--1 mb-3 w-100 h-100" style="border-radius:10px;transform:translate(25px, 25px)"> </div>
-                    </div>
-                  </div>
-                  <div class="carousel-navigation d-flex flex-column flex-between-center position-absolute end-0 top-lg-50 bottom-0 translate-middle-y z-index-1 me-3 me-lg-0" style="height:60px;width:20px;">
-                    <button class="carousel-control-prev position-static" type="button" data-bs-target="#testimonialIndicator" data-bs-slide="prev"><img src="assets/img/icons/up.svg" width="16" alt="icon" /></button>
-                    <button class="carousel-control-next position-static" type="button" data-bs-target="#testimonialIndicator" data-bs-slide="next"><img src="assets/img/icons/down.svg" width="16" alt="icon" /></button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>end of .container -->
-
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
+    
       <!-- <div class="position-relative pt-9 pt-lg-8 pb-6 pb-lg-8">
         <div class="container">
           <div class="row row-cols-lg-5 row-cols-md-3 row-cols-2 flex-center">
@@ -702,52 +538,8 @@
       </div> -->
 
 
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <!-- <section id="subscribe" class="checkpoint-section subscribe-section">
-        <div class="container text-center">
-          <div class="subscribe-box mx-auto position-relative">
-            <img src="assets/img/hero/lovecraft heart.png" alt="Heart Icon" class="subscribe-heart">
-            <h2 class="subscribe-text">
-              Stay connected with <span class="highlight">Love.Craft Athens</span>.<br>
-              Get updates on new artist features, upcoming events, and stories that celebrate creativity and community.
-            </h2>
-
-            <form class="subscribe-form mx-auto">
-              <input type="email" class="subscribe-input" placeholder="Enter your email" aria-label="email" required>
-              <button type="submit" class="subscribe-btn">Subscribe</button>
-            </form>
-          </div>
-        </div>
-      </section> -->
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-    </div>
-    <!-- Extra sections end ============================-->
-    <!-- ============================================-->
-
-
-      <!-- ============================================-->
-      <!-- Footer begin ============================-->
-      <div class="container">
-        <div class="row align-items-center justify-content-between text-center text-lg-start">
-
-          <!-- Left: Logo -->
-          <div class="col-lg-3 col-md-4 mb-4 mb-md-0 text-lg-start text-center">
-            <img class="mb-3" src="assets/img/hero/lovecraft logo.png" width="130" alt="Love.Craft Logo" />
-          </div>
-
-          <!-- Center: Empowering Text -->
-          <div class="col-lg-6 col-md-8 mb-4 mb-md-0 text-center">
-            <p class="fs--1 text-secondary mb-0 fw-medium">
-              Empowering artists. Connecting communities.<br>
-              Love.Craft Athens x UGA New Media Institute
-            </p>
-          </div>
-
           <!-- Right: Social Icons -->
-          <div class="col-lg-3 col-md-12 mb-4 mb-md-0 text-lg-end text-center">
+          <!-- <div class="col-lg-3 col-md-12 mb-4 mb-md-0 text-lg-end text-center">
             <div class="icon-group d-inline-flex gap-3">
               <a class="text-decoration-none icon-item shadow-social" id="facebook"
                 href="https://www.facebook.com/lovecraftathens">
@@ -758,17 +550,21 @@
                 <i class="fab fa-instagram"></i>
               </a>
             </div>
-          </div>
-        <!-- Small copyright line -->
-        <div class="text-center mt-3 pb-3">
-          <p class="fs--1 text-secondary mb-0 fw-medium">All rights reserved UGA New Media Institute.</p>
-        </div>
-        </div>
-        
-      </div>
-      <!-- Footer end ============================-->
-      <!-- ============================================-->
+          </div> -->
 
+
+        <!-- Small copyright line -->
+      <div class="py-5 text-center">
+        <p class="mb-0 text-secondary fs--1 fw-medium">
+          Empowering artists. Connecting communities.<br />
+          Love.Craft Athens x UGA New Media Institute
+        </p>
+        <br>
+        <p class="mb-0 text-secondary fs--1 fw-medium">
+          All rights reserved UGA New Media Institute.
+        </p>
+      </div>
+        
     </main>
     <!-- ===============================================-->
     <!--    End of Main Content-->
