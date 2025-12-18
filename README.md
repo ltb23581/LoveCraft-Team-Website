@@ -6,7 +6,8 @@ The purpose of this site is to document our team’s work, showcase our redesign
 
 > ⚠️ **Note:** This is *not* the official Love.Craft Athens website.  
 > It is a standalone page created to demonstrate our team’s design, development, and UX work.
-> **The "Our Product" button is currently functioning (redirects to LoveCraft's website); however, the organization is going through some updates for the new year, so the artists' pages have been disabled for now!**
+
+**The "Our Product" button is currently functioning (redirects to LoveCraft's website); however, the organization is going through some updates for the new year, so the artists' pages have been disabled for now!**
 ---
 
 ## 🔗 Live Website  
